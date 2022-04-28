@@ -71,7 +71,7 @@ type Task struct {
 	Project         ProjectOfTaskBelonging `json:"project"`
 	Folder          FolderOftaskBelonging  `json:"folder"`
 	Space           SpaceOfTaskBelonging   `json:"space"`
-	Subtasks        []Task                 `json:"subtasks"`
+	SubTasks        []Task                 `json:"subtasks"`
 }
 
 type Dependence struct {
