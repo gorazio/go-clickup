@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/raksul/go-clickup/clickup"
+	"github.com/gorazio/go-clickup/clickup"
 )
 
 func fetchTaskInStatus(taskId string, options *clickup.GetTaskOptions) (*clickup.TasksInStatus, error) {
